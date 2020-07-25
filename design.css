@@ -11,6 +11,12 @@ h1 {
 	font-size: 45px;
 	text-decoration-line: underline;
 }
+h1 a {
+  text-align: center;
+  color: #E30613;
+  font-size: 45px;
+  text-decoration-line: underline;
+}
 div {
 	width: 100%;
 	background-color: #e30613;
@@ -21,6 +27,16 @@ div {
 	color: #ffed00;
 	text-align: center;
 	font-size: 20px;
+  padding-top: 5px;
+}
+div.empty {
+  padding-bottom: 5px;
+}
+header {
+  margin-bottom: 10px;
+}
+body section {
+  margin-top: 10px;
 }
 a.menu {
 	color: #ffed00;
@@ -55,6 +71,10 @@ article {
 }
 li {
 	text-align: left;
+}
+li a {
+  color: #ffed00;
+  text-decoration-line: none;
 }
 footer {
 	clear: both;
@@ -140,6 +160,9 @@ footer {
   }
   .col-xs-12 {
     width: 100%;
+  }
+  .non-visible-xs {
+    width: 1px;
   }
 }
 /*desktop version*/
